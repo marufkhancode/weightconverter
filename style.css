@@ -6,3 +6,29 @@ body {
 .footer p {
     color: rgba(255, 255, 255, 0.54);
 }
+
+#animate {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@-webkit-keyframes example {
+    0% {
+        bottom: 0px;
+    }
+    25% {
+        bottom: 40px;
+    }
+    50% {
+        bottom: 30px;
+    }
+    75% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}

@@ -17,16 +17,11 @@
     <div class="container">
         <div class="d-flex justify-content-center">
             <h1 class="display-4 text-white">
-                <i class="fas fa-weight-hanging"></i> Weight Converter </h1>
+                <i class="fas fa-weight-hanging" id="animate"></i> Weight Converter </h1>
         </div>
         <div class="row">
             <!-- 1st pound Div -->
-            <div class="col-md-6 offset-md-0">
-                <!-- <div class="d-flex justify-content-center">
-                    <h1 class="display-4 text-white">
-                        <i class="fas fa-weight-hanging"></i> Weight Converter </h1>
-                </div> -->
-
+            <div class="col-md-6 mt-2">
                 <form>
                     <div class="form-group">
                         <input type="number" id="lbsinput" class="form-control form-control-lg" placeholder="Enter Pounds">
@@ -34,161 +29,161 @@
                 </form>
                 <div id="output">
                     <div class="card text-white bg-primary mb-2">
-                        <div class="card-body">
-                            <h4>Grams:</h4>
-                            <div id="gramsOutput"></div>
+                        <div class="form-row card-body">
+                            <h4>Grams: </h4> &nbsp;
+                            <div id="gramsOutput" class="mt-1"> </div>
                         </div>
                     </div>
                 </div>
                 <div id="output">
                     <div class="card text-white bg-success mb-2">
-                        <div class="card-body">
-                            <h4>KiloGrams:</h4>
-                            <div id="kgOutput"></div>
+                        <div class="form-row card-body">
+                            <h4>KiloGrams: </h4> &nbsp;
+                            <div id="kgOutput" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
                 <div id="output">
                     <div class="card text-white bg-danger mb-2">
-                        <div class="card-body">
-                            <h4>Ounce:</h4>
-                            <div id="ozOutput"></div>
+                        <div class="form-row card-body">
+                            <h4>Ounce:</h4> &nbsp;
+                            <div id="ozOutput" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
                 <div id="output">
                     <div class="card text-white bg-info mb-2">
-                        <div class="card-body">
-                            <h4>Tonne:</h4>
-                            <div id="tonsOutput"></div>
+                        <div class="form-row card-body">
+                            <h4>Tonne:</h4> &nbsp;
+                            <div id="tonsOutput" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 2nd Gram Div -->
-            <div class="col-md-6">
+            <div class="col-md-6 mt-2">
                 <form>
-                    <div class="form-group ">
-                        <input type="number " id="lbsinput " class="form-control form-control-lg " placeholder="Enter Grams ">
+                    <div class="form-group">
+                        <input type="number" id="graminput" class="form-control form-control-lg" placeholder="Enter Grams">
                     </div>
                 </form>
-                <div id="output ">
-                    <div class="card text-white bg-primary mb-2 ">
-                        <div class="card-body ">
-                            <h4>Pounds:</h4>
-                            <div id="gramsOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-primary mb-2">
+                        <div class="form-row card-body">
+                            <h4>Pounds:</h4> &nbsp;
+                            <div id="poundsOutput" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-success mb-2 ">
-                        <div class="card-body ">
-                            <h4>KiloGrams:</h4>
-                            <div id="kgOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-success mb-2">
+                        <div class="form-row card-body">
+                            <h4>KiloGrams:</h4> &nbsp;
+                            <div id="kgOutput2" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-danger mb-2 ">
-                        <div class="card-body ">
-                            <h4>Ounce:</h4>
-                            <div id="ozOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-danger mb-2">
+                        <div class="form-row card-body">
+                            <h4>Ounce:</h4> &nbsp;
+                            <div id="ozOutput2" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-info mb-2 ">
-                        <div class="card-body ">
-                            <h4>Tonne:</h4>
-                            <div id="tonsOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-info mb-2">
+                        <div class="form-row card-body">
+                            <h4>Tonne:</h4> &nbsp;
+                            <div id="tonsOutput2" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <hr>
             <!-- 3rd KiloGram Div -->
-            <div class="col-md-6">
+            <div class="col-md-6 mt-4">
                 <form>
-                    <div class="form-group ">
-                        <input type="number " id="lbsinput " class="form-control form-control-lg " placeholder="Enter Kilograms ">
+                    <div class="form-group">
+                        <input type="number" id="kginput" class="form-control form-control-lg" placeholder="Enter Kilograms ">
                     </div>
                 </form>
-                <div id="output ">
-                    <div class="card text-white bg-primary mb-2 ">
-                        <div class="card-body ">
-                            <h4>Grams:</h4>
-                            <div id="gramsOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-primary mb-2">
+                        <div class="form-row card-body">
+                            <h4>Grams:</h4> &nbsp;
+                            <div id="gramsOutput3" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-success mb-2 ">
-                        <div class="card-body ">
-                            <h4>Pounds:</h4>
-                            <div id="kgOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-success mb-2">
+                        <div class="form-row card-body">
+                            <h4>Pounds:</h4> &nbsp;
+                            <div id="poundsOutput3" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-danger mb-2 ">
-                        <div class="card-body ">
-                            <h4>Ounce:</h4>
-                            <div id="ozOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-danger mb-2">
+                        <div class="form-row card-body">
+                            <h4>Ounce:</h4> &nbsp;
+                            <div id="ozOutput3" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-info mb-2 ">
-                        <div class="card-body ">
-                            <h4>Tonne:</h4>
-                            <div id="tonsOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-info mb-2">
+                        <div class="form-row card-body">
+                            <h4>Tonne:</h4> &nbsp;
+                            <div id="tonsOutput3" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 4th Tonne Div -->
-            <div class="col-md-6">
+            <div class="col-md-6 mt-4">
                 <form>
-                    <div class="form-group ">
-                        <input type="number " id="lbsinput " class="form-control form-control-lg " placeholder="Enter Ounce ">
+                    <div class="form-group">
+                        <input type="number" id="ounceinput" class="form-control form-control-lg" placeholder="Enter Ounce ">
                     </div>
                 </form>
-                <div id="output ">
-                    <div class="card text-white bg-primary mb-2 ">
-                        <div class="card-body ">
-                            <h4>Grams:</h4>
-                            <div id="gramsOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-primary mb-2">
+                        <div class="form-row card-body ">
+                            <h4>Grams:</h4> &nbsp;
+                            <div id="gramsOutput4" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-success mb-2 ">
-                        <div class="card-body ">
-                            <h4>KiloGrams:</h4>
-                            <div id="kgOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-success mb-2">
+                        <div class="form-row card-body">
+                            <h4>KiloGrams:</h4> &nbsp;
+                            <div id="kgOutput4" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-danger mb-2 ">
-                        <div class="card-body ">
-                            <h4>Pounds:</h4>
-                            <div id="ozOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-danger mb-2">
+                        <div class="form-row card-body">
+                            <h4>Pounds:</h4> &nbsp;
+                            <div id="poundsOutput4" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
-                <div id="output ">
-                    <div class="card text-white bg-info mb-2 ">
-                        <div class="card-body ">
-                            <h4>Tonne:</h4>
-                            <div id="tonsOutput "></div>
+                <div id="output">
+                    <div class="card text-white bg-info mb-2">
+                        <div class="form-row card-body">
+                            <h4>Tonne:</h4> &nbsp;
+                            <div id="tonsOutput4" class="mt-1"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer ">
+    <div class="footer">
         <p>&copy M.MARUF KHAN 2018</p>
     </div>
 
